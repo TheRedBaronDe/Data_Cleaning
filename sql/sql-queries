@@ -1,11 +1,14 @@
-1. -- rename irregular columns starting with a "_" to match the remaining collumns.
+1. -- rename table.
 TBA
 
-2. -- search for null values.
+2. -- irregular columns starting with a "_" to match the remaining collumns.
 TBA
 
-3. -- delete repetitive and irrelevant columns.
+3. -- search for null values.
 TBA
 
-4. -- check data types.
+4. -- delete repetitive and irrelevant columns.
+TBA
+
+5. -- check data types.
 TBA
