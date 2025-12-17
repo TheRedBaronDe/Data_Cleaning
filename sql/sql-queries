@@ -1,0 +1,11 @@
+1. -- rename irregular columns starting with a "_" to match the remaining collumns.
+TBA
+
+2. -- search for null values.
+TBA
+
+3. -- delete repetitive and irrelevant columns.
+TBA
+
+4. -- check data types.
+TBA
