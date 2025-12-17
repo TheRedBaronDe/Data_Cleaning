@@ -18,7 +18,7 @@ It also had a long and overly complicated name, which I shortened for practicali
 
 ALTER TABLE Data Set- Inc5000 Company List_2014.csv to Company_List_2014;
 
-2. -- irregular columns starting with a "_" to match the remaining collumns. (Made it more organised)
+2. -- irregular columns starting with a "_" to match the remaining collumns (Made it more organised).
 
 ALTER TABLE Company_List_2014
 RENAME COLUMN _num to num;
@@ -32,17 +32,17 @@ RENAME COLUMN _pageURL to pageURL;
 SELECT * FROM Company_List_2014
 WHERE _id IS NULL;
 
-4. -- delete repetitive and irrelevant columns. (Made the dataset shorter and more relevant)
+4. -- delete repetitive and irrelevant columns (Made the dataset shorter and more relevant).
 
 ALTER TABLE Company_List_2014
-DROP COLUMN _id; (Only null values)
+DROP COLUMN _id; -- (Only null values)
 
 ALTER TABLE Company_List_2014
-DROP COLUMN _widgetName; (All rows contained the same text, which was the dataset's title)
+DROP COLUMN _widgetName; -- (All rows contained the same text, which was the dataset's title)
 
 ALTER TABLE Company_List_2014
-DROP COLUMN _source; (Identical to _widgetName)
+DROP COLUMN _source; -- (Identical to _widgetName)
 
 ALTER TABLE Company_List_2014
-DROP COLUMN _resultNumber; (Identical to num)
+DROP COLUMN _resultNumber; -- (Identical to num)
 ```
