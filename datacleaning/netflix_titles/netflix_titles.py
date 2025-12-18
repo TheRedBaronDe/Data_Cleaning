@@ -1,5 +1,8 @@
+## Project: netflix_titles.csv
+## Tools: Sublime. Pandas (Python)
+## Author: Victoria Silva (TheRedBaronDe)
+
 import pandas as pd
-import numpy as np
 
 # 1. load data 
 df = pd.read_csv('C:\\Users\\Yoro\\Documents\\SQLite\\CSV\\netflix_titles.csv')
@@ -36,3 +39,4 @@ df = df.dropna(subset=['date_added', 'duration'])
 # 8. save cleaned dataset
 
 df.to_csv('netflix_titles_cleaned.csv', index=False)
+
