@@ -5,25 +5,26 @@ The goal was to improve readability, consistency, and query efficiency, enabling
 
 **Dataset**
 
-**Source:** Tableau Public Library
+Source: Tableau Public Library
 
-**Description:** Information about the top 5,000 U.S. companies in 2014
+Description: Information about the top 5,000 U.S. companies in 2014
 
-**Format:** CSV imported into SQLite
+Format: CSV imported into SQLite
 
-**Scope:** Company metadata, rankings, and financial attributes
+Scope: Company metadata, rankings, and financial attributes
 
 **Tools & Technologies**
 
-**Database:** SQLite
+Database: SQLite
 
-**Language:** SQL
+Language: SQL
 
-**Environment:** Local database for data preparation and transformation
+Environment: Local database for data preparation and transformation
 
 **Cleaning Process**
 
 The dataset required multiple cleaning steps before it could be effectively analyzed:
+
 Renamed tables and columns to improve clarity and consistency
 Removed irrelevant and duplicated columns
 Standardized column naming conventions
