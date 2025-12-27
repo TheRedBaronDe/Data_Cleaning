@@ -3,6 +3,7 @@
 
 The goal was to improve readability, consistency, and query efficiency, enabling reliable exploratory and analytical work.
 
+
 **Dataset**
 
 Source: Tableau Public Library
@@ -13,6 +14,7 @@ Format: CSV imported into SQLite
 
 Scope: Company metadata, rankings, and financial attributes
 
+
 **Tools & Technologies**
 
 Database: SQLite
@@ -20,6 +22,7 @@ Database: SQLite
 Language: SQL
 
 Environment: Local database for data preparation and transformation
+
 
 **Cleaning Process**
 
@@ -32,6 +35,7 @@ Simplified overly long table and column names
 Organized schema to improve query readability and maintainability
 
 All transformations were performed using SQL queries.
+
 
 **Outcomes**
 
