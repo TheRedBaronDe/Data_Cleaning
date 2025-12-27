@@ -12,6 +12,7 @@ It contained some irrelevant and repetitive columns, as well as a long and overl
 By cleaning this dataset, the data becomes much more readable and easier to query.
 
 **What could be improved?**
+
 It would be highly important if a "Month" column were added, so the dataset could be analysed by months and quarters, compare trends, holiday's seasons and more.
 
 **Queries**
