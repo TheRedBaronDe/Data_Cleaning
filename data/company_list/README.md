@@ -24,7 +24,7 @@ Language: SQL
 Environment: Local database for data preparation and transformation
 
 
-**Cleaning Process**
+# Cleaning Process
 
 The dataset required multiple cleaning steps before it could be effectively analyzed:
 
